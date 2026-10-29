@@ -262,7 +262,8 @@ export default page().render(() => {
         </section>
 
         <footer className="py-10 text-center text-foreground/45 text-sm">
-          {l.trans({ en: "Made with Akan.js · Powered by Bun", ko: "Akan.js로 만들고 Bun으로 구동합니다" })}
+          <p>{l.trans({ en: "Made with Akan.js · Powered by Bun", ko: "Akan.js로 만들고 Bun으로 구동합니다" })}</p>
+          <p className="mt-1">{l.trans({ en: "Deployed by the ticket runner.", ko: "티켓 러너가 배포했습니다." })}</p>
         </footer>
       </div>
     </main>
