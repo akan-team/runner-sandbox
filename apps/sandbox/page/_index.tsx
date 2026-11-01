@@ -31,7 +31,7 @@ export default page().render(() => {
   const chapters = [
     {
       numeral: "1",
-      title: l.trans({ en: "The line you write.", ko: "당신이 쓰는 한 줄." }),
+      title: l.trans({ en: "The one line you write.", ko: "당신이 쓰는 단 한 줄." }),
       body: l.trans({
         en: "A field is one declaration — a name and a type. The database, API, screens and agent tools all come from it.",
         ko: "필드는 이름과 타입, 선언 한 줄입니다. DB, API, 화면, 에이전트 도구가 모두 이 한 줄에서 나옵니다.",
